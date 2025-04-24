@@ -2,7 +2,16 @@ import pickle
 import streamlit as st
 import numpy as np
 
-st.header('Books Recommender System using Machine Learning')
+st.markdown(
+    """
+    <h1 style='text-align: center; color: #c; font-family: "Helvetica Neue", sans-serif;'>
+        📚 Welcome to <span style="color:#FFD700;">Bookvana</span>
+    </h1>
+    <h3 style='text-align: center; color: #555;'>Your personalized book recommendation system</h3>
+    """,
+    unsafe_allow_html=True
+)
+
 model = pickle.load(open('artifacts/model.pkl','rb'))
 books_name = pickle.load(open('artifacts/books_name.pkl','rb'))
 final_rating = pickle.load(open('artifacts/final_rating.pkl','rb'))
