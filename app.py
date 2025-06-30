@@ -5,7 +5,7 @@ import numpy as np
 st.markdown(
     """
     <h1 style='text-align: center; color: #c; font-family: "Helvetica Neue", sans-serif;'>
-        <span style="color:#FFF4F4;">📚 Welcome to </span><span style="color:#FAF4D0;">Bookvana</span>
+        <span style="color:#FFF4F4;">📚 Welcome to </span><span style="color:#D5E7B5;">Bookvana</span>
     </h1>
     <h3 style='text-align: center; color: #FFF4F4;'>Your personalized book recommendation system</h3>
     """,
